@@ -1,0 +1,22 @@
+{
+    "name": "solwin/catalogpages",
+    "description": "7 in 1 Catalog Slider extension for Magento 2 helps to add Featured, Best deals, Best sellers, Last ordered, Most viewed, New, Promotional & All products to your store.",
+    "type": "magento2-module",
+    "version": "2.0.8",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\CatalogPages\\": ""
+        }
+    }
+}
